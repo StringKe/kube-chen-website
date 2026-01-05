@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kube-chen-website",
+  "compatibility_date": "2026-01-05",
+  "pages_build_output_dir": "./dist",
+
+  // Custom domain configuration
+  // Configured via Cloudflare Dashboard or API
+
+  // Routes (optional, for Workers deployment)
+  // "routes": [
+  //   { "pattern": "kubechen.app/*", "zone_name": "kubechen.app" }
+  // ]
+}
