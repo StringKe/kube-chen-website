@@ -4,7 +4,7 @@ import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
 import tailwindcss from "@tailwindcss/vite";
 import AutoImport from "astro-auto-import";
-import { defineConfig, passthroughImageService } from "astro/config";
+import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
@@ -15,8 +15,14 @@ export default defineConfig({
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   output: "static",
-  adapter: cloudflare(),
-  image: { service: passthroughImageService() },
+  adapter: cloudflare({
+    imageService: "passthrough",
+  }),
+  image: {
+    service: {
+      entrypoint: "astro/assets/services/noop",
+    },
+  },
   vite: { plugins: [tailwindcss()] },
   i18n: {
     defaultLocale: "en",
