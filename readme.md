@@ -2,7 +2,7 @@
 
 Official website for [KubeChen](https://github.com/StringKe/kube-chen) - Native Kubernetes Visualization and Management Tool.
 
-**Live Site:** [https://kubechen.app](https://kubechen.app)
+**Live Site:** [https://kubchen.app](https://kubchen.app)
 
 ## Tech Stack
 

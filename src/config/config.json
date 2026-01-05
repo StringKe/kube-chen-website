@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "KubeChen",
-    "base_url": "https://kubechen.app",
+    "base_url": "https://kubchen.app",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
