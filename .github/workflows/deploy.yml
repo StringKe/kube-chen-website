@@ -19,6 +19,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y libvips-dev
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -27,9 +30,6 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
-
-      - name: Rebuild sharp for Linux
-        run: npm rebuild sharp
 
       - name: Build
         run: yarn build
