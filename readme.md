@@ -1,132 +1,89 @@
-<h1 align=center>Astro + Tailwind CSS + TypeScript Starter and Boilerplate</h1>
+# KubeChen Website
 
-<p align=center>Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript, providing everything you need to jumpstart your Astro project and save valuable time.</p>
+Official website for [KubeChen](https://github.com/StringKe/kube-chen) - Native Kubernetes Visualization and Management Tool.
 
-<p align=center>Made with ♥ by <a href="https://zeon.studio/">Zeon Studio</a></p>
+**Live Site:** [https://kubechen.app](https://kubechen.app)
 
-<p align=center> If you find this project useful, please give it a ⭐ to show your support. </p>
+## Tech Stack
 
-<h2 align="center"> <a target="_blank" href="https://astroplate.netlify.app/" rel="nofollow">👀 Demo</a> | <a target="_blank" href="https://astroplate-multilang.netlify.app/" rel="nofollow">👀 Demo Multilang</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astroplate-netlify-app/yzx3foum3w?form_factor=desktop">Page Speed (100%)🚀</a>
-</h2>
+- **Framework**: [Astro](https://astro.build/) 5.x
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) 4.x
+- **UI Components**: React 19
+- **Deployment**: Cloudflare Pages
+- **i18n**: English (default) + Chinese
 
-<p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%405.15.9">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.15&color=000&logo=astro"  alt="Astro Version 5.15"/>
-  </a>
+## Development
 
-  <a href="https://github.com/zeon-studio/astroplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/astroplate" alt="license"></a>
+### Prerequisites
 
-  <img src="https://img.shields.io/github/languages/code-size/zeon-studio/astroplate" alt="code size">
+- Node.js 22+
+- Yarn 1.22+
 
-  <a href="https://github.com/zeon-studio/astroplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/astroplate" alt="contributors"></a>
-</p>
-
-## 📌 Key Features
-
-- 👥 Multi-Authors
-- 🌐 Multilingual
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown / MDX
-- 📎 Google Tag Manager
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
-
-### 📄 15+ Pre-designed Pages
-
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
-
-## 🔗 Integrations
-
-- astro/react
-- astro/sitemap
-- astro/tailwind
-
-## 🚀 Getting Started
-
-### 📦 Dependencies
-
-- astro v5.15+
-- node v20.10+
-- yarn v1.22+
-- tailwind v4+
-
-### 👉 Install Dependencies
+### Setup
 
 ```bash
+# Install dependencies
 yarn install
+
+# Start development server
+yarn dev
+
+# Build for production
+yarn build
+
+# Preview production build
+yarn preview
 ```
 
-### 👉 Development Command
+### Deployment
+
+The site is automatically deployed to Cloudflare Pages on push to `main`.
+
+For manual deployment:
 
 ```bash
-yarn run dev
+yarn deploy
 ```
 
-### 👉 Build Command
+## Project Structure
+
+```
+src/
+├── content/           # Markdown/MDX content
+│   ├── homepage/      # Homepage content
+│   ├── about/         # About page
+│   ├── blog/          # Blog posts
+│   ├── pages/         # Static pages (features, docs, download)
+│   └── sections/      # Reusable sections
+├── config/            # Site configuration
+│   ├── config.json    # Main config
+│   └── menu.json      # Navigation menus
+├── pages/             # Astro pages
+└── components/        # React/Astro components
+```
+
+## Configuration
+
+### Environment Variables
+
+Create a `.envrc` file (using direnv) with:
 
 ```bash
-yarn run build
+# Cloudflare (for deployment)
+export CLOUDFLARE_API_TOKEN="your-api-token"
+export CLOUDFLARE_ACCOUNT_ID="your-account-id"
 ```
 
-### 👉 Build and Run With Docker
+### Site Configuration
 
-```bash
-docker build -t astroplate .
-# or
-# docker build --build-arg INSTALLER=npm -t astroplate .
-# or
-# docker build --build-arg INSTALLER=pnpm -t astroplate .
+Edit `src/config/config.json` for site-wide settings.
 
-docker run -p 3000:80 astroplate
-# or
-# docker run --rm -p 3000:80 astroplate
-```
+## License
 
-To access the shell within the container:
+MIT License - Website template based on [Astroplate](https://github.com/zeon-studio/astroplate).
 
-```bash
-docker run -it --rm astroplate ash
-```
+KubeChen application is licensed under [PolyForm Noncommercial License 1.0.0](https://github.com/StringKe/kube-chen/blob/main/LICENSE).
 
-<!-- reporting issue -->
+---
 
-## 🐞 Reporting Issues
-
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/astroplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/astroplate/issues).
-
-<!-- licence -->
-
-## 📝 License
-
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-
-**Code License:** Released under the [MIT](https://github.com/zeon-studio/astroplate/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
-## 💻 Need Custom Development Services?
-
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/).
+Built with Astro for the KubeChen project.
