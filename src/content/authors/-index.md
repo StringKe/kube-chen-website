@@ -1,7 +1,7 @@
 ---
 title: "Authors"
-meta_title: "KubeChen Team"
-description: "The people behind KubeChen"
+meta_title: "KubChen Team"
+description: "The people behind KubChen"
 image: ""
 draft: false
 ---

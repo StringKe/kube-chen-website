@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "KubeChen",
+    "title": "KubChen",
     "base_url": "https://kubchen.app",
     "base_path": "/",
     "trailing_slash": false,
@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "30",
-    "logo_text": "KubeChen"
+    "logo_text": "KubChen"
   },
 
   "settings": {
@@ -30,7 +30,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "© 2024-present KubeChen. All rights reserved."
+    "copyright": "© 2024-present KubChen. All rights reserved."
   },
 
   "navigation_button": {
@@ -51,7 +51,7 @@
   },
 
   "metadata": {
-    "meta_author": "KubeChen",
+    "meta_author": "KubChen",
     "meta_image": "/images/og-image.png",
     "meta_description": "Native Kubernetes visualization and management tool for macOS, Windows, and Linux"
   }

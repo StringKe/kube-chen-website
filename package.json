@@ -1,7 +1,7 @@
 {
-  "name": "kube-chen-website",
+  "name": "kub-chen-website",
   "version": "0.1.0",
-  "description": "KubeChen - Native Kubernetes visualization and management tool",
+  "description": "KubChen - Native Kubernetes visualization and management tool",
   "author": "StringKe",
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
@@ -14,8 +14,8 @@
     "format": "prettier -w ./src",
     "generate-json": "node scripts/jsonGenerator.js",
     "remove-darkmode": "node scripts/removeDarkmode.js && yarn format",
-    "deploy": "yarn build && wrangler pages deploy ./dist --project-name=kube-chen-website",
-    "deploy:preview": "yarn build && wrangler pages deploy ./dist --project-name=kube-chen-website --branch=preview"
+    "deploy": "yarn build && wrangler pages deploy ./dist --project-name=kub-chen-website",
+    "deploy:preview": "yarn build && wrangler pages deploy ./dist --project-name=kub-chen-website --branch=preview"
   },
   "dependencies": {
     "@astrojs/check": "0.9.6",

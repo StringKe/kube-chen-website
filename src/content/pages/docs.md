@@ -1,7 +1,7 @@
 ---
 title: "Documentation"
-meta_title: "KubeChen Documentation"
-description: "Learn how to use KubeChen for Kubernetes cluster management"
+meta_title: "KubChen Documentation"
+description: "Learn how to use KubChen for Kubernetes cluster management"
 draft: false
 ---
 
@@ -9,15 +9,15 @@ draft: false
 
 ### Installation
 
-Download KubeChen from our [download page](/download) and follow the platform-specific instructions:
+Download KubChen from our [download page](/download) and follow the platform-specific instructions:
 
-- **macOS**: Open the `.dmg` file and drag KubeChen to Applications
+- **macOS**: Open the `.dmg` file and drag KubChen to Applications
 - **Windows**: Run the `.msi` installer
 - **Linux**: Use the `.AppImage` or install the `.deb` package
 
 ### First Launch
 
-1. Launch KubeChen
+1. Launch KubChen
 2. Your local kubeconfig clusters will be automatically discovered
 3. Select a cluster from the sidebar to connect
 
@@ -27,7 +27,7 @@ Download KubeChen from our [download page](/download) and follow the platform-sp
 
 ### Cluster Connection
 
-KubeChen automatically discovers clusters from your local `~/.kube/config` file. To connect:
+KubChen automatically discovers clusters from your local `~/.kube/config` file. To connect:
 
 1. Click on a cluster in the left sidebar
 2. Wait for the connection to establish
@@ -90,7 +90,7 @@ Access settings via the gear icon or `Cmd/Ctrl + ,`:
 
 ## Contributing
 
-KubeChen is open source! Visit our [GitHub repository](https://github.com/StringKe/kube-chen) to:
+KubChen is open source! Visit our [GitHub repository](https://github.com/StringKe/kub-chen) to:
 
 - Report bugs
 - Request features
@@ -98,4 +98,4 @@ KubeChen is open source! Visit our [GitHub repository](https://github.com/String
 
 ---
 
-Need help? [Open an issue](https://github.com/StringKe/kube-chen/issues) on GitHub.
+Need help? [Open an issue](https://github.com/StringKe/kub-chen/issues) on GitHub.

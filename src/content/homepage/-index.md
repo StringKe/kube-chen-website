@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Native Kubernetes Management for Everyone"
-  content: "KubeChen is a powerful, cross-platform desktop application for visualizing and managing Kubernetes clusters. Built with Rust and React for native performance."
+  content: "KubChen is a powerful, cross-platform desktop application for visualizing and managing Kubernetes clusters. Built with Rust and React for native performance."
   image: "/images/banner.png"
   button:
     enable: true
@@ -13,7 +13,7 @@ banner:
 features:
   - title: "Multi-Cluster Management"
     image: "/images/service-1.png"
-    content: "Manage all your Kubernetes clusters from a single, unified interface. KubeChen supports multiple cluster sources and provides seamless switching between environments."
+    content: "Manage all your Kubernetes clusters from a single, unified interface. KubChen supports multiple cluster sources and provides seamless switching between environments."
     bulletpoints:
       - "Local kubeconfig support with auto-discovery"
       - "AWS EKS, Azure AKS, GCP GKE integration"
@@ -28,7 +28,7 @@ features:
 
   - title: "Powerful Resource Visualization"
     image: "/images/service-2.png"
-    content: "See your entire Kubernetes infrastructure at a glance. KubeChen provides comprehensive resource visualization with real-time updates and intuitive navigation."
+    content: "See your entire Kubernetes infrastructure at a glance. KubChen provides comprehensive resource visualization with real-time updates and intuitive navigation."
     bulletpoints:
       - "Resource tree navigation by type (Workloads, Network, Storage, Config)"
       - "Real-time resource status with visual indicators"
@@ -41,7 +41,7 @@ features:
 
   - title: "Built for Performance"
     image: "/images/service-3.png"
-    content: "Unlike web-based alternatives, KubeChen is a native desktop application built with Rust for maximum performance and minimal resource usage."
+    content: "Unlike web-based alternatives, KubChen is a native desktop application built with Rust for maximum performance and minimal resource usage."
     bulletpoints:
       - "Native performance with Tauri 2 + Rust backend"
       - "Modern React 19 UI with Mantine components"

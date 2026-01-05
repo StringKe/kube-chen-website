@@ -1,6 +1,6 @@
-# KubeChen Website
+# KubChen Website
 
-Official website for [KubeChen](https://github.com/StringKe/kube-chen) - Native Kubernetes Visualization and Management Tool.
+Official website for [KubChen](https://github.com/StringKe/kub-chen) - Native Kubernetes Visualization and Management Tool.
 
 **Live Site:** [https://kubchen.app](https://kubchen.app)
 
@@ -82,8 +82,8 @@ Edit `src/config/config.json` for site-wide settings.
 
 MIT License - Website template based on [Astroplate](https://github.com/zeon-studio/astroplate).
 
-KubeChen application is licensed under [PolyForm Noncommercial License 1.0.0](https://github.com/StringKe/kube-chen/blob/main/LICENSE).
+KubChen application is licensed under [PolyForm Noncommercial License 1.0.0](https://github.com/StringKe/kub-chen/blob/main/LICENSE).
 
 ---
 
-Built with Astro for the KubeChen project.
+Built with Astro for the KubChen project.

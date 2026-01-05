@@ -1,24 +1,24 @@
 ---
-title: "About KubeChen"
-meta_title: "About KubeChen - Native Kubernetes Management"
-description: "Learn about KubeChen, the native desktop application for Kubernetes visualization and management"
+title: "About KubChen"
+meta_title: "About KubChen - Native Kubernetes Management"
+description: "Learn about KubChen, the native desktop application for Kubernetes visualization and management"
 image: "/images/avatar.png"
 draft: false
 ---
 
 ## Our Mission
 
-KubeChen aims to make Kubernetes management accessible and efficient for everyone. We believe that visualizing your cluster resources should be the priority before any editing capabilities - you can't manage what you can't see.
+KubChen aims to make Kubernetes management accessible and efficient for everyone. We believe that visualizing your cluster resources should be the priority before any editing capabilities - you can't manage what you can't see.
 
-## Why KubeChen?
+## Why KubChen?
 
 ### Visualization First
 
-Our core philosophy: **"Visualization comes before editing."** KubeChen must fully display resource status, topology, and changes - otherwise, editing becomes meaningless. Every critical operation has a visual feedback loop: Get → Display → Explain → Operate → Confirm.
+Our core philosophy: **"Visualization comes before editing."** KubChen must fully display resource status, topology, and changes - otherwise, editing becomes meaningless. Every critical operation has a visual feedback loop: Get → Display → Explain → Operate → Confirm.
 
 ### Native Performance
 
-Unlike browser-based or Electron alternatives, KubeChen is built with:
+Unlike browser-based or Electron alternatives, KubChen is built with:
 
 - **Rust Backend**: Maximum performance and memory efficiency
 - **Tauri 2 Framework**: Native system integration without the Electron overhead
@@ -26,7 +26,7 @@ Unlike browser-based or Electron alternatives, KubeChen is built with:
 
 ### Open Source
 
-KubeChen is released under the PolyForm Noncommercial License, meaning:
+KubChen is released under the PolyForm Noncommercial License, meaning:
 
 - Free for personal use
 - Free for open-source projects
@@ -44,7 +44,7 @@ KubeChen is released under the PolyForm Noncommercial License, meaning:
 
 ## Get Involved
 
-- **GitHub**: [github.com/StringKe/kube-chen](https://github.com/StringKe/kube-chen)
+- **GitHub**: [github.com/StringKe/kub-chen](https://github.com/StringKe/kub-chen)
 - **Issues**: Report bugs or request features
 - **Discussions**: Join the community conversation
 

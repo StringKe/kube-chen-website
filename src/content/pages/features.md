@@ -1,7 +1,7 @@
 ---
 title: "Features"
-meta_title: "KubeChen Features - Complete Kubernetes Management"
-description: "Explore the powerful features of KubeChen for Kubernetes cluster management"
+meta_title: "KubChen Features - Complete Kubernetes Management"
+description: "Explore the powerful features of KubChen for Kubernetes cluster management"
 draft: false
 ---
 
@@ -73,4 +73,4 @@ Stay informed about your cluster's state:
 
 ---
 
-Ready to get started? [Download KubeChen](/download) today.
+Ready to get started? [Download KubChen](/download) today.

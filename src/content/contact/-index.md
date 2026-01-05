@@ -1,7 +1,7 @@
 ---
 title: "Contact"
-meta_title: "Contact KubeChen"
-description: "Get in touch with the KubeChen team"
+meta_title: "Contact KubChen"
+description: "Get in touch with the KubChen team"
 image: ""
 draft: false
 ---

@@ -1,13 +1,13 @@
 ---
 title: "Download"
-meta_title: "Download KubeChen - Native Kubernetes Management"
-description: "Download KubeChen for macOS, Windows, or Linux"
+meta_title: "Download KubChen - Native Kubernetes Management"
+description: "Download KubChen for macOS, Windows, or Linux"
 draft: false
 ---
 
-## Download KubeChen
+## Download KubChen
 
-KubeChen is currently in **MVP development** (v0.1.0). Releases will be available soon.
+KubChen is currently in **MVP development** (v0.1.0). Releases will be available soon.
 
 ### Coming Soon
 
@@ -21,12 +21,12 @@ KubeChen is currently in **MVP development** (v0.1.0). Releases will be availabl
 
 ### Build from Source
 
-While we prepare official releases, you can build KubeChen from source:
+While we prepare official releases, you can build KubChen from source:
 
 ```bash
 # Clone the repository
-git clone https://github.com/StringKe/kube-chen.git
-cd kube-chen
+git clone https://github.com/StringKe/kub-chen.git
+cd kub-chen
 
 # Install dependencies (requires Rust 1.92+ and Node.js 22+)
 npm install
@@ -48,9 +48,9 @@ npm run tauri:build
 
 ## Stay Updated
 
-- **GitHub**: [Watch releases](https://github.com/StringKe/kube-chen/releases)
+- **GitHub**: [Watch releases](https://github.com/StringKe/kub-chen/releases)
 - **Star the repo**: Help us grow the community
 
 ---
 
-Questions? Check our [documentation](/docs) or [open an issue](https://github.com/StringKe/kube-chen/issues).
+Questions? Check our [documentation](/docs) or [open an issue](https://github.com/StringKe/kub-chen/issues).
