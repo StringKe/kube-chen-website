@@ -26,7 +26,10 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
+
+      - name: Rebuild sharp for Linux
+        run: npm rebuild sharp
 
       - name: Build
         run: yarn build
